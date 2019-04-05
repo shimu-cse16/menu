@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Discount">
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/campanelle" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="142dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/white"
+        android:text="CAMPELLENA PIZZA"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:text="Rs.90"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/imageView12"
+        android:layout_alignTop="@+id/textView23"
+        android:background="@android:color/white"
+        android:text="Add"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="146dp"
+        android:layout_height="86dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="11dp"
+        app:srcCompat="@drawable/b7" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="129dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView12"
+        android:layout_marginRight="7dp"
+        android:text="PORK BURGER"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_marginRight="15dp"
+        android:text="Rs.100"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/white"
+        android:text="Add"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="126dp"
+        android:layout_height="97dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="154dp"
+        app:srcCompat="@drawable/dum" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView14"
+        android:text="  DUM BIRYANI"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView26"
+        android:text="Rs.95"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="73dp"
+        android:layout_height="25dp"
+        android:layout_alignRight="@+id/imageView14"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="149dp"
+        android:background="@android:color/white"
+        android:text="Add"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="149dp"
+        android:layout_height="89dp"
+        android:layout_alignBottom="@+id/imageView14"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/mutton" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="138dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/imageView15"
+        android:layout_marginRight="-80dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toLeftOf="@+id/button12"
+        android:text="MUTTON BIRYANI"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="137dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/textView27"
+        android:layout_marginRight="-79dp"
+        android:layout_marginTop="-17dp"
+        android:layout_toLeftOf="@+id/button12"
+        android:text="Rs.120"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="77dp"
+        android:layout_height="24dp"
+        android:layout_alignRight="@+id/imageView13"
+        android:layout_alignTop="@+id/button13"
+        android:background="@android:color/white"
+        android:text="Add"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
+</RelativeLayout>

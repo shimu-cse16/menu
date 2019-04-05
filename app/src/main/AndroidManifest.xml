@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.menu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Biriany" />
+        <activity android:name=".pasta" />
+        <activity android:name=".pizza" />
+        <activity android:name=".burger" />
+        <activity android:name=".role" />
+        <activity android:name=".sandwicth" />
+        <activity android:name=".soup" />
+        <activity android:name=".salad" />
+        <activity android:name=".fish" />
+        <activity android:name=".grill" />
+        <activity android:name=".shrimp" />
+        <activity android:name=".noodles" />
+        <activity android:name=".ice" />
+        <activity android:name=".drink" />
+        <activity android:name=".Home" />
+        <activity android:name=".Discount" />
+    </application>
+
+</manifest>

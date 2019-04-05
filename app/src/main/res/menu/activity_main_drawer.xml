@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/m1"
+            android:icon="@drawable/menu"
+            android:title="Biryani" />
+        <item
+            android:id="@+id/m2"
+            android:icon="@drawable/menu"
+            android:title="Pizza" />
+        <item
+            android:id="@+id/m3"
+            android:icon="@drawable/menu"
+            android:title="Pasta" />
+        <item
+            android:id="@+id/m4"
+            android:icon="@drawable/menu"
+            android:title="Burger" />
+        <item
+            android:id="@+id/m5"
+            android:icon="@drawable/menu"
+            android:title="Sandwicth" />
+        <item
+            android:id="@+id/m6"
+            android:icon="@drawable/menu"
+            android:title="Salad" />
+        <item
+            android:id="@+id/m7"
+            android:icon="@drawable/menu"
+            android:title="Fish" />
+        <item
+            android:id="@+id/m8"
+            android:icon="@drawable/menu"
+            android:title="Ice cream" />
+        <item
+            android:id="@+id/m9"
+            android:icon="@drawable/menu"
+            android:title="Soup" />
+        <item
+            android:id="@+id/me1"
+            android:icon="@drawable/menu"
+            android:title="Noodles" />
+        <item
+            android:id="@+id/me2"
+            android:icon="@drawable/menu"
+            android:title="Roll" />
+        <item
+            android:id="@+id/me3"
+            android:icon="@drawable/menu"
+            android:title="Shrimp" />
+        <item
+            android:id="@+id/me4"
+            android:icon="@drawable/menu"
+            android:title="Grill" />
+        <item
+            android:id="@+id/me5"
+            android:icon="@drawable/menu"
+            android:title="Drink" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/dis"
+                android:icon="@drawable/dis"
+                android:title="Discount" />
+            <item
+                android:id="@+id/ord"
+                android:icon="@drawable/ic_bookmark_border_black_24dp"
+                android:title="Order" />
+            <item
+                android:id="@+id/log"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
